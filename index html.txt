@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Sports Portal | Athlete Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">CS-Portal</div>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#schedule">Schedules</a></li>
+                <li><a href="#results">Results</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="dashboard">
+        <section class="hero">
+            <h1>Welcome back, Varsity!</h1>
+            <p>Manage your training schedules and track your performance in one place.</p>
+        </section>
+
+        <section class="content-grid" id="schedule">
+            <div class="card" aria-labelledby="sched-title">
+                <h2 id="sched-title">Upcoming Training</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sport</th>
+                            <th>Date & Time</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Basketball</td>
+                            <td>April 15 | 4:00 PM</td>
+                            <td>Gymnasium A</td>
+                        </tr>
+                        <tr>
+                            <td>Volleyball</td>
+                            <td>April 17 | 5:30 PM</td>
+                            <td>Court 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card" aria-labelledby="announcement-title">
+                <h2 id="announcement-title">Announcements</h2>
+                <p><strong>Intramurals 2026:</strong> Registration for all sports is now open until next Friday.</p>
+                <button class="btn-primary">View More</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Campus Sports Management System</p>
+    </footer>
+</body>
+</html>

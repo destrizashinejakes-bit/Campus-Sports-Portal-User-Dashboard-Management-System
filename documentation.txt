@@ -1,0 +1,16 @@
+# Campus Sports Portal 🏆
+
+A professional web application designed for varsity athletes and coaches to manage training schedules and track sports performance.
+
+## ✨ Features
+- **Responsive Design:** Works on desktops, tablets, and mobile phones.
+- **Accessible:** Built with semantic HTML and ARIA roles for screen readers.
+- **Dashboard:** Quick view of upcoming schedules and team announcements.
+
+## 🛠️ Built With
+- **HTML5:** For structure and accessibility.
+- **CSS3:** For custom styling and responsive grid layouts.
+- **AI Tools:** Used for layout planning and content optimization.
+
+## 🚀 Live Demo
+[Insert your GitHub Pages Link Here]
